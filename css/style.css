@@ -12,6 +12,9 @@
 a {
   text-decoration: none;
 }
+a:hover{
+  color:#fff;
+}
 
 ul {
   list-style: none;
@@ -59,9 +62,9 @@ font-family: 'Roboto Slab', serif;
   width: 1200px;
   display: flex;
   flex-direction: column;
-  border: 2px solid #333;
+  /* border: 2px solid #333; */
   margin: 0 auto;
-  border-radius:5px;
+  border-radius: 5px;
 }
 
 .btn {
@@ -88,7 +91,7 @@ body {
   min-height: 100vh;
   background: #FFFFFF;
   color: #151414;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 /* section{
@@ -99,7 +102,7 @@ body {
 .header {
   background: url('../images/banner/banner2.png');
   background-repeat: no-repeat;
-  height: 1050px;
+  height: 870px;
   background-size: center;
   background-position: cover;
   transform: scalex(-1);
@@ -242,5 +245,51 @@ body {
   font-weight: 600;
   letter-spacing: 1px;
   font-family: 'Poppins', sans-serif;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
+
+/* *<===contact me section styles===>* */
+.contact-me {
+  margin-top: 70px;
+}
+
+.contact-me .blend-content {
+  border-radius:8px;
+  padding: 50px 0;
+  background: #FF4E50;
+  background:linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover;
+  color:#fff;
+}
+.contact-me .blend-content .font-heading4{
+  margin-left:30px;
+  width:400px;
+}
+.contact-me .blend-content .btn1{
+  display: inline-block;
+  background:#fff;
+  margin:20px 0;
+  margin-left:50px;
+  width:200px;
+  text-align: center;
+}
+.contact-me .blend-content .btn1:hover{
+  background:#151414;
+  color:#fff;
+}
+.contact-me .blend-content .btn1 a{
+  font-size:20px;
+  color:#F15B22;
+  font-weight:bold;
+  font-family:'Roboto slab',sans-serif;
+  letter-spacing:1px;
+}
+.contact-me .blend-content .btn1 a:hover{
+  font-weight:400;
+  letter-spacing:2px;
+  color:#fff;
+}
+
+/* *<===my blog section styles===>* */
