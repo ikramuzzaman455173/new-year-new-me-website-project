@@ -87,7 +87,7 @@ font-family: 'Roboto Slab', serif;
 }
 
 /* *<===page main styles===>* */
-body {
+.wrapper{
   width: 100%;
   min-height: 100vh;
   background: #FFFFFF;
@@ -392,4 +392,73 @@ section {
 .blogs .blog-card .blog-card-info .more:hover{
   color:#F15B22;
   letter-spacing:2px;
+}
+
+/* *<===footer section styles===>* */
+.footer{
+  background:#151414;
+  height:400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:0 70px;
+  gap:50px;
+}
+.footer .col1 {
+  padding:20px;
+}
+.footer .col1 .font-heading4{
+  color:#fff;
+  letter-spacing:1px;
+  margin-bottom:10px;
+}
+.footer .col1 .font-paragrapgh{
+  color:#ddd;
+  font-size:15px;
+  width:600px;
+  margin-bottom:10px;
+}
+.footer .col1 .icons img{
+  width:40px;
+  margin-top:10px;
+  margin-left:15px;
+}
+
+.footer .col2 .font-heading4{
+  color:#fff;
+  letter-spacing:1px;
+}
+.footer .col2 .input{
+  display: flex;
+  flex-direction:column;
+}
+.footer .col2 .input input{
+  outline:none;
+  border:2px solid #ddd;
+  border-radius:5px;
+  background:transparent;
+  padding:15px 30px;
+  margin-top:10px;
+  color:#fff;
+  font-size:18px;
+}
+.footer .col2 .input .btns{
+  background:white;
+  color:#F15B22;
+  display: inline-block;
+  width:200px;
+  margin-top:20px;
+  font-weight:bold;
+  letter-spacing:1px;
+}
+.footer .col2 .input .btns:hover{
+  background:#FF4E50;
+  color:#fff;
+  cursor: pointer;
+}
+::placeholder{
+  font-family:'Roboto Slab',sans-serif;
+  color:#ddd;
+  font-size:16px;
+  letter-spacing:1px;
 }
